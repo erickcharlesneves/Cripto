@@ -12,19 +12,29 @@ Os códigos seguem a seguinte ordem:
 **Contextualização sobre:**
 O uso mais antigo que conhecemos de uma cifra de substituição, e o mais simples, foi feito por Júlio César. A cifra de César envolve substituir cada letra do alfabeto por aquela que fica três posições adiante.
 Por exemplo,
-claro: meet me after the toga party
-cifra: PHHW PH DIWHU WKH WRJD SDUWB
 
-Observe que o alfabeto recomeça no final, de modo que a letra após Z é A. Podemos definir a transformação listando todas as alternativas, da seguinte forma:
-
+```sql
 claro: a b c d e f g h i j k l m n o p q r s t u v w x y z
 cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+```
 
 Ainda se atribuirmos um equivalente numérico a cada letra em ordem:
+
+```sql
 a b c d e f  g h  i  j   k    l   m
-0 1 2 3 4 5  6 7  8 9 10  11 12
+0 1 2 3 4 5  6 7  8  9   10   11  12
+n   o   p   q   r    s    t    u    v   w   x   y   z
+13  14 15   16  17   18   19   20   21  22  23  24  25
+```
+
+Ainda se atribuirmos um equivalente numérico a cada letra em ordem:
+
+```sql
+a b c d e f  g h  i  j   k    l   m
+0 1 2 3 4 5  6 7  8  9   10   11  12
 n    o   p   q   r    s    t    u    v   w   x   y   z
-13 14 15 16 17 18 19 20 21 22 23 24 25
+13   14  15  16  17   18   19   20   21  22  23  24  25
+```
 
 Trata-se de uma criptografia facilmente quebrável por uma criptoanálise por força bruta. 
 Pois os algoritmos de encriptação e decriptação são conhecidos, existem apenas 25 chaves para experimentar, a linguagem do texto claro é conhecida e facilmente reconhecível.
@@ -44,7 +54,7 @@ Porém, até mesmo com homófonos, cada elemento do texto claro afeta somente um
 Dois métodos principais são usados nas cifras de substituição para reduzir a extensão da estrutura sobrevivente do texto claro no cifrado. Uma técnica é encriptar várias letras do texto claro **(Cifra de Hill código upado conforme item 2)**, e a outra é usar vários alfabetos de cifra **(Cifra de Vigenère (poli alfabética) conforme item 3)**. 
 
 
-###  **2. Cifra de Hill (Necessário bibliotecas math: winpython, pycrypto ou execução em sage math);
-###  **3. Cifra de Vigenère;
-###  **4. AES (Advanced Encryption Standard) simplificado. 
+###  2. Cifra de Hill (Necessário bibliotecas math: winpython, pycrypto ou execução em sage math);
+###  3. Cifra de Vigenère;
+###  4. AES (Advanced Encryption Standard) simplificado. 
 
