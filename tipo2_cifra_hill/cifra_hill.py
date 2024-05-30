@@ -6,7 +6,7 @@
 """
 #TEE criptografia 
 
-# Cifra de hill e decifraa
+# Cifra de hill e decifra
 
 import numpy as np #para operações com matriz
 from pprint import pprint
