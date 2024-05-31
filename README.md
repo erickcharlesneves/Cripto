@@ -54,7 +54,7 @@ Porém, até mesmo com homófonos, cada elemento do texto claro afeta somente um
 Dois métodos principais são usados nas cifras de substituição para reduzir a extensão da estrutura sobrevivente do texto claro no cifrado. Uma técnica é encriptar várias letras do texto claro **(Cifra de Hill código upado conforme item 2)**, e a outra é usar vários alfabetos de cifra **(Cifra de Vigenère (poli alfabética) conforme item 3)**. 
 
 
-###  2. Cifra de Hill (Necessário bibliotecas math: winpython, pycrypto ou execução em sage math);
+###  2. Cifra de Hill (Necessário caso não tenha instalar biblioteca numpy);
 ###  3. Cifra de Vigenère;
-###  4. AES (Advanced Encryption Standard) simplificado. 
+###  4. AES(Advanced Encryption Standard) simplificado. (Necessário instalar bibliotecas: cryptography, pycryptodome, pycrypto ou execução em sage math);
 
