@@ -1,4 +1,3 @@
-#  **Cripto**
 #  **Criptografias em python**
 
 ### **Técnicas clássicas de encriptação:**
@@ -7,7 +6,7 @@ Utilizando criptografias simétricas e também de chave pública, ou assimétric
 
 Os códigos seguem a seguinte ordem:
 
-### **1. Cifra de César aleatória e Cifras monoalfabéticas aleatórias;**
+### **1. [Cifra de César aleatória e Cifras monoalfabéticas aleatórias](https://github.com/erickcharlesneves/Cripto/commit/ba24c1e11bad2f75e6d6d33b6c4d69e861745126#commitcomment-142550589);**
 
 **Contextualização sobre:**
 O uso mais antigo que conhecemos de uma cifra de substituição, e o mais simples, foi feito por Júlio César. A cifra de César envolve substituir cada letra do alfabeto por aquela que fica três posições adiante.
@@ -51,10 +50,10 @@ Por exemplo, a letra e poderia ser atribuída a diversos símbolos de cifra dife
 O grande matemático Carl Friedrich Gauss acreditava ter criado uma cifra indecifrável usando homófonos.
 Porém, até mesmo com homófonos, cada elemento do texto claro afeta somente um elemento do texto cifrado, e padrões de múltiplas letras (por exemplo, frequências de digrama) ainda sobrevivem no texto cifrado, tornando a criptoanálise possível.
 
-Dois métodos principais são usados nas cifras de substituição para reduzir a extensão da estrutura sobrevivente do texto claro no cifrado. Uma técnica é encriptar várias letras do texto claro **(Cifra de Hill código upado conforme item 2)**, e a outra é usar vários alfabetos de cifra **(Cifra de Vigenère (poli alfabética) conforme item 3)**. 
+Dois métodos principais são usados nas cifras de substituição para reduzir a extensão da estrutura sobrevivente do texto claro no cifrado. Uma técnica é encriptar várias letras do texto claro **(Cifra de Hill códigos upados conforme item 2 abaixo)**, e a outra é usar vários alfabetos de cifra **(Cifra de Vigenère (poli alfabética) conforme item 3, abaixo)**. 
 
 
-###  2. Cifra de Hill (Necessário caso não tenha instalar biblioteca numpy);
-###  3. Cifra de Vigenère;
-###  4. AES(Advanced Encryption Standard) simplificado. (Necessário instalar bibliotecas: cryptography, pycryptodome, pycrypto ou execução em sage math);
+###  2. [Cifra de Hill(1ª)](https://github.com/erickcharlesneves/Cripto/commit/ca583b3e712109b8d3db8b00639fce2cabb20886#commitcomment-142653992) - [Cifra de Hill(2ª)](https://github.com/erickcharlesneves/Cripto/commit/48fa4080543a8cdff130092721e5c256d1a67c87#commitcomment-142550069);
+###  3. [Cifra de Vigenère](https://github.com/erickcharlesneves/Cripto/commit/3d123c520bb734d2676b919a13f7287d64c51875#commitcomment-142549762);
+###  4. [AES](https://github.com/erickcharlesneves/Cripto/commit/7ab832858ff0781de03f420168b0eaa083cf1969#commitcomment-142625749)(Advanced Encryption Standard) simplificado. (Necessário instalar bibliotecas: cryptography, pycryptodome, pycrypto ou execução em sage math);
 
